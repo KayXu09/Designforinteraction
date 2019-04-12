@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity2">
+
+    <TextView
+        android:id="@+id/Eraser"
+        android:layout_width="426dp"
+        android:layout_height="343dp"
+        android:gravity="center"
+        android:text="Start Erasing"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Done" />
+
+    <TextView
+        android:id="@+id/tvTeamATitle"
+        android:layout_width="413dp"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:text="Team A"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/holo_red_dark"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/Points"
+        android:layout_width="197dp"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:text="Your points"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="583dp" />
+
+    <TextView
+        android:id="@+id/Score"
+        android:layout_width="197dp"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:text="1000"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="583dp" />
+
+    <TextView
+        android:id="@+id/Done"
+        android:layout_width="197dp"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:text="Done"
+        app:layout_constraintTop_toBottomOf="@id/tvTeamATitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+
+
+</android.support.constraint.ConstraintLayout>
