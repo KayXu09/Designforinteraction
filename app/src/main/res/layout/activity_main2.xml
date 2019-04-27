@@ -25,7 +25,7 @@
         android:layout_width="413dp"
         android:layout_height="90dp"
         android:gravity="center"
-        android:text="Team A"
+        android:text="Game Time!"
         android:textColor="@android:color/white"
         android:textSize="24sp"
         android:textStyle="bold"
