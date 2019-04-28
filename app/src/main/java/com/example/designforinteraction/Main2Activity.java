@@ -25,6 +25,7 @@ public class Main2Activity extends Activity {
     private double last_y = 0;
     private boolean start = false;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,7 +51,7 @@ public class Main2Activity extends Activity {
                     last_x = x;
                     last_y = y;
                 }
-                int points_i = (int)(points/10.);
+                int points_i = (int)(points/100.);
                 score.setText("" + points_i);
             }
 
@@ -82,7 +83,7 @@ public class Main2Activity extends Activity {
                     @Override
                     public void onClick(View v) {
                         Intent intent = new Intent(Main2Activity.this, MainActivity.class);
-                        int points_i = (int)(points/10.);
+                        int points_i = (int)(points/100.);
                         String message = "" + points_i;
                         intent.putExtra("total_points", message);
                         startActivity(intent);
