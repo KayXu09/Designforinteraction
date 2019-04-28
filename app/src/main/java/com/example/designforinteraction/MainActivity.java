@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.widget.TextView;
 
@@ -56,8 +57,9 @@ public class MainActivity extends Activity {
 
             tvList.setText(resStr);
         }
-
+        tvList.setMovementMethod(new ScrollingMovementMethod());
     }
+
 
 
 }
